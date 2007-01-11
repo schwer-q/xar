@@ -1,3 +1,4 @@
+#summary xar_t xar_open(const char *file, int32_t flags)
 #labels Phase-Implementation
 = API Documentation =
 == xar_t xar_open(const char *file, int32_t flags) ==
