@@ -1,4 +1,6 @@
+#summary void xar_iter_free(xar_iter_t i)
 #labels Phase-Implementation
+
 = API Documentation =
 
 == void xar_iter_free(xar_iter_t i) ==
