@@ -1,4 +1,6 @@
+#summary xar_iter_t xar_iter_new()
 #labels Phase-Implementation
+
 = API Documentation =
 
 == xar_iter_t xar_iter_new() ==
