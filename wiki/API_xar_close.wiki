@@ -1,4 +1,6 @@
+#summary void xar_close(xar_t x)
 #labels Phase-Implementation
+
 = API Documentation =
 
 == void xar_close(xar_t x) ==
