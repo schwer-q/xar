@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary XarInfo(name, type = '', mode = '', uid = '', user = '', gid = '', group = '', atime = '', mtime = '', ctime = '')
 #labels pyxar,api
 
 = pyxar API Documentation =
@@ -16,4 +16,3 @@ This class represents a member of a XarArchive. More specifically, it allows acc
 
   ==== isdir() ====
     Returns True if the archive member is a directory. Otherwise, returns false.
-
