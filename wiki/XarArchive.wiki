@@ -1,2 +1,2 @@
-#labels pyxar,api
+#labels Deprecated
 This page shouldn't exist.
