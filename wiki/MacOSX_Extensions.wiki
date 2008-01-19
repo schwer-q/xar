@@ -16,7 +16,7 @@ up a dialog box asking if you want to install it, and it'll install into
 /Library/Spotlight.
 
 To debug why the plugin isn't working, there are two commands most useful:
-* First, verify that LaunchServices is picking up the xar file mapping.
+  * First, verify that LaunchServices is picking up the xar file mapping.
 This can be done with: "/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -dump" and you should see something that looks like this:
 {{{
         type    id:            16444
@@ -28,7 +28,7 @@ This can be done with: "/System/Library/Frameworks/CoreServices.framework/Framew
                 conforms to:   public.data, public.content
                 tags:          .xar
 }}}
-* Second, try importing the file manually with debug info on using the command: mdimport -d 2 /path/to/foo.xar" and you should see something like this:
+  * Second, try importing the file manually with debug info on using the command: mdimport -d 2 /path/to/foo.xar" and you should see something like this:
 {{{
     kMDItemContentType = "xar.xar";
     kMDItemContentTypeTree =     (
@@ -64,7 +64,7 @@ new plugin.  If all works properly, you should have something more exciting
 than the default blank icon for .xar files.
 
 If something isn't going properly, here are some hints to debug it:
-* As with the Spotlight plugin, the first thing to do is verify that 
+  * As with the Spotlight plugin, the first thing to do is verify that 
 LaunchServices is picking up the xar file mapping.
 This can be done with: "/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -dump" and you should see something that looks like this:
 {{{
@@ -77,7 +77,7 @@ type            id:            17056
                 conforms to:   public.archive
                 tags:          .xar
 }}}
-* Second, if the mapping is correct, use 'qlmanage -t /path/to/foo.xar'
+  * Second, if the mapping is correct, use 'qlmanage -t /path/to/foo.xar'
 to manually attempt to get a thumbnail rendered.  'qlmanage -m' will
 give you some additional information about what plugins are registered
 and for what UTI Types.
