@@ -1,5 +1,5 @@
 #summary pyxar!  The Python bindings for xar.
-#labels pyxar,python
+#labels pyxar,python,Featured
 
 = Introduction =
 
