@@ -1,5 +1,5 @@
 #summary xarchive format
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 = Format of a xar archive =
 
